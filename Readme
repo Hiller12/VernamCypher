@@ -1,1 +1,15 @@
-Nothing
+Файлы G1,G2,G3,G4 содержат гаммы для использования в шифре Вернама. 
+Файлы text1, text2 являются исходными для шифрования.
+Файлы encryptText1, encryptText2, encryptText3, encryptText4, encryptText5, encryptText6 являются выходными файлами программы.
+encryptText1 <- G1 + Text1
+encryptText2 <- G2 + Text2
+encryptText3 <- G3 + Text1
+encryptText4 <- G4 + Text2
+encryptText5 <- G2 + Text1
+encryptText6 <- G4 + Text1
+Файл lab1Sum содержит вероятности встретить тот или иной символ открытого ключа в Гамма.
+Требования к файлам G1, G2, G3, G4, text1, text2:
+1. Английский язык
+2. Символы в нижнем регистре
+3. Длина файлов 200 символов
+4. Пробелы и иные символы отличные от приведенных выше не обрабатываются
